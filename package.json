@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "build": "npx quasar build",
+    "dev": "npx quasar dev",
     "serve": "npx serve dist/spa",
     "test": "jest"
   },

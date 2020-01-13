@@ -13,6 +13,12 @@ npm install
 npm run dev
 ```
 
+### Run tests
+
+```bash
+npm run test
+```
+
 
 ### Build the app for production
 ```bash
