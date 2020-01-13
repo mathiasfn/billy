@@ -1,4 +1,4 @@
-##Billy work log
+## Billy work log
 
 Skal vi benytte os af quasar framework for at spare noget tid?
 > Helt klart
