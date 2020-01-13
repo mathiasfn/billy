@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1578864808489" clover="3.2.0">
-  <project timestamp="1578864808489" name="All files">
-    <metrics statements="134" coveredstatements="12" conditionals="55" coveredconditionals="1" methods="47" coveredmethods="8" elements="236" coveredelements="21" complexity="0" loc="134" ncloc="134" packages="8" files="17" classes="17"/>
+<coverage generated="1578910011175" clover="3.2.0">
+  <project timestamp="1578910011176" name="All files">
+    <metrics statements="133" coveredstatements="33" conditionals="55" coveredconditionals="12" methods="47" coveredmethods="15" elements="235" coveredelements="60" complexity="0" loc="133" ncloc="133" packages="8" files="17" classes="17"/>
     <package name="src">
       <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.vue" path="/Users/maddi/code/billy/src/App.vue">
@@ -33,83 +33,82 @@
       </file>
     </package>
     <package name="src.classes">
-      <metrics statements="28" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="1"/>
+      <metrics statements="27" coveredstatements="14" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="6"/>
       <file name="BillyForm.js" path="/Users/maddi/code/billy/src/classes/BillyForm.js">
-        <metrics statements="28" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <metrics statements="27" coveredstatements="14" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="6"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
+        <line num="39" count="32" type="stmt"/>
+        <line num="43" count="16" type="stmt"/>
+        <line num="44" count="16" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.contact">
-      <metrics statements="76" coveredstatements="11" conditionals="45" coveredconditionals="1" methods="24" coveredmethods="7"/>
+      <metrics statements="76" coveredstatements="19" conditionals="45" coveredconditionals="12" methods="24" coveredmethods="9"/>
       <file name="ContactModal.vue" path="/Users/maddi/code/billy/src/components/contact/ContactModal.vue">
-        <metrics statements="40" coveredstatements="11" conditionals="25" coveredconditionals="1" methods="14" coveredmethods="7"/>
-        <line num="75" count="1" type="stmt"/>
-        <line num="80" count="1" type="stmt"/>
-        <line num="93" count="0" type="stmt"/>
-        <line num="94" count="0" type="stmt"/>
-        <line num="102" count="1" type="stmt"/>
-        <line num="103" count="0" type="stmt"/>
-        <line num="105" count="8" type="cond" truecount="0" falsecount="23"/>
-        <line num="107" count="1" type="stmt"/>
-        <line num="108" count="1" type="stmt"/>
-        <line num="110" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="111" count="0" type="stmt"/>
-        <line num="112" count="0" type="stmt"/>
-        <line num="120" count="1" type="stmt"/>
-        <line num="121" count="1" type="stmt"/>
-        <line num="129" count="1" type="stmt"/>
-        <line num="130" count="1" type="stmt"/>
-        <line num="134" count="0" type="stmt"/>
+        <metrics statements="40" coveredstatements="19" conditionals="25" coveredconditionals="12" methods="14" coveredmethods="9"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
+        <line num="94" count="4" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="103" count="4" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="106" count="74" type="cond" truecount="10" falsecount="13"/>
+        <line num="108" count="4" type="stmt"/>
+        <line num="109" count="4" type="stmt"/>
+        <line num="111" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="130" count="4" type="stmt"/>
+        <line num="131" count="4" type="stmt"/>
         <line num="135" count="0" type="stmt"/>
         <line num="136" count="0" type="stmt"/>
-        <line num="138" count="0" type="stmt"/>
-        <line num="142" count="0" type="stmt"/>
-        <line num="145" count="0" type="stmt"/>
-        <line num="148" count="0" type="stmt"/>
-        <line num="151" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="139" count="3" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
         <line num="152" count="0" type="stmt"/>
         <line num="153" count="0" type="stmt"/>
-        <line num="156" count="0" type="stmt"/>
-        <line num="162" count="0" type="stmt"/>
-        <line num="170" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
         <line num="171" count="0" type="stmt"/>
-        <line num="173" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
         <line num="174" count="0" type="stmt"/>
-        <line num="178" count="0" type="stmt"/>
-        <line num="179" count="0" type="stmt"/>
-        <line num="182" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="179" count="1" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
         <line num="183" count="0" type="stmt"/>
-        <line num="186" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
         <line num="187" count="0" type="stmt"/>
-        <line num="190" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
         <line num="191" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
       </file>
       <file name="ContactsTable.vue" path="/Users/maddi/code/billy/src/components/contact/ContactsTable.vue">
         <metrics statements="36" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="10" coveredmethods="0"/>

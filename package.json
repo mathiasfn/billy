@@ -8,9 +8,7 @@
   "author": "mathiasfn <begger-008@hotmail.com>",
   "private": true,
   "scripts": {
-    "build": "npx quasar build",
-    "dev": "npx quasar dev",
-    "serve": "npx serve dist/spa",
+    "serve": "serve dist/spa",
     "test": "jest"
   },
   "dependencies": {
@@ -28,6 +26,7 @@
     "@vue/test-utils": "^1.0.0-beta.30",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
+    "serve": "^11.3.0",
     "vue-jest": "^3.0.5"
   },
   "engines": {
