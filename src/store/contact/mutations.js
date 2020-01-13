@@ -1,4 +1,7 @@
+import * as types from "./types";
+
 export default {
-  mutatino: ({state}) => {
+  [types.MUTATION_SET_CONTACTS]: ({state}, contacts) => {
+    state.contacts = contacts
   }
 }

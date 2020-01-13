@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import { api } from "src/boot/axios";
 import * as types from "./types";
 
@@ -7,7 +8,7 @@ export default {
       const contacts = await api.get('contacts');
       commit(types.MUTATION_SET_CONTACTS, contacts);
     } catch(e) {
-      console.log('rip', e)
+      Vue.$log.error('couldnt fetch contacts', e)
     }
   }
 };

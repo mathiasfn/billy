@@ -1,5 +1,3 @@
 export default {
-  getter: (/* state */) => {
-
-  }
+  getter: (state) => {}
 }
