@@ -15,7 +15,7 @@
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
     "config": "^3.2.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "logrocket": "^1.0.6",
     "quasar": "^1.0.0",
     "vuejs-logger": "^1.5.3"
